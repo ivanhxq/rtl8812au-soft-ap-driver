@@ -1,0 +1,11 @@
+# include this file from your own hostapd.conf
+interface=wlan0
+ctrl_interface=/var/run/hostapd
+ssid=rtwap
+channel=149
+wpa=2
+wpa_passphrase=87654321
+
+driver=rtl871xdrv
+
+hw_mode=a
